@@ -5,5 +5,23 @@
 .test{
     color: blue;
     cursor: pointer;
-    cursor: url("link")auto;
+    /*cursor: url("link"),auto;*/
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding:20px;
+    background-color: brown;
+    width: 110px;
+    
+}
+.box2{
+    background-color: chocolate;
+}
+.box3{
+    background-color: blue;
 }
